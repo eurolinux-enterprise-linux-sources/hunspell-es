@@ -1,7 +1,7 @@
 Name: hunspell-es
 Summary: Spanish hunspell dictionaries
 Version: 0.6
-Release: 3%{?dist}
+Release: 4%{?dist}
 Epoch: 1
 Source: http://forja.rediris.es/frs/download.php/2618/es_ANY.oxt
 Group: Applications/Text
@@ -40,6 +40,9 @@ popd
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.6-4
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.6-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
